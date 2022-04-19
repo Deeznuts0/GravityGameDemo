@@ -12,6 +12,7 @@ TagManager:
   - check
   - Floor
   - log
+  - Coin
   layers:
   - Default
   - TransparentFX
