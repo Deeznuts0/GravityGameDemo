@@ -16,11 +16,13 @@ public class PMove : MonoBehaviour
     private bool jumpTrigger;
     public GameObject Cam;
 
+    AudioSource audio;
 
     // Start is called before the first frame update
     void Start()
     {
         rb.GetComponent<Rigidbody>();
+        audio = GetComponent<AudioSource>();
     }
 
     void Update()
@@ -64,6 +66,7 @@ public class PMove : MonoBehaviour
         if (col.gameObject.CompareTag("grav"))
         {
             SwitchGravity();
+            audio.Play();
         }
         if (col.gameObject.CompareTag("check")/*&& coins==5*/)
         {
@@ -84,14 +87,11 @@ public class PMove : MonoBehaviour
 
     }
 
-
-
     void SwitchGravity()
     {
         // Physics.gravity = new Vector3(0, -1.0F, 0);
         cg.gravityScale *= -1;
     }
-
 }
 
 

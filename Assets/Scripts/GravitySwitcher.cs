@@ -7,8 +7,6 @@ public class GravitySwitcher : MonoBehaviour
     public GameObject player;
     public GameObject Camera;
 
-
-
 /*
     void OnCollisionEnter(Collision collision)
     {
