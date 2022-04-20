@@ -12,12 +12,8 @@ public class CameraMove : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetMouseButtonDown(0))
-        {
-            previousPosition = cam.ScreenToViewportPoint(Input.mousePosition);
-        }
-        else if (Input.GetMouseButton(0))
-        {
+      
+        
             Vector3 newPosition = cam.ScreenToViewportPoint(Input.mousePosition);
             Vector3 direction = previousPosition - newPosition;
 
@@ -32,6 +28,6 @@ public class CameraMove : MonoBehaviour
             cam.transform.Translate(new Vector3(0, 0, -distanceToTarget));
 
             previousPosition = newPosition;
-        }
+        
     }
 }
