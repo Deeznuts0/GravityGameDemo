@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class SpinBlade : MonoBehaviour
 {
+    public Vector3 speed;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -13,6 +15,6 @@ public class SpinBlade : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        transform.Rotate(speed * Time.deltaTime);
     }
 }
