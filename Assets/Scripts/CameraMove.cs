@@ -9,11 +9,12 @@ public class CameraMove : MonoBehaviour
     [SerializeField] private float distanceToTarget = 10;
 
     private Vector3 previousPosition;
-
+    private void Start()
+    {
+        previousPosition = cam.ScreenToViewportPoint(Input.mousePosition);
+    }
     void Update()
     {
-      
-        
             Vector3 newPosition = cam.ScreenToViewportPoint(Input.mousePosition);
             Vector3 direction = previousPosition - newPosition;
 
