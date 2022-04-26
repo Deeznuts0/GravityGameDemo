@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 8400136726512597795}
   - component: {fileID: 3856805964944830172}
   - component: {fileID: 6285448297739682681}
+  - component: {fileID: 6917488546006760326}
+  - component: {fileID: -6539012708624180091}
   m_Layer: 0
   m_Name: Lightning
   m_TagString: Untagged
@@ -84,6 +86,31 @@ SpriteRenderer:
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!114 &6285448297739682681
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1314739272557534176}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9197206b5a947304b8d377e49e0d382d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &6917488546006760326
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1314739272557534176}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c379d4148c8b21d4ba6ebd23f898644f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  p: {fileID: 0}
+--- !u!114 &-6539012708624180091
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
