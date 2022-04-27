@@ -5,29 +5,18 @@ using UnityEngine.UI;
 
 public class CoinPickUp : MonoBehaviour
 {
-    public int coins;
-    Text text;
-    public static int coinAmount;
+    public int coin = 0;
+    public Text coinText;
 
-    void Start()
+    private void OnTriggerEnter(Collider other)
     {
-        text = GetComponent<Text>();
+        Destroy(other.gameObject);
+        AddCoin();
     }
 
-    void Update()
+    void AddCoin()
     {
-        text.text = coinAmount.ToString();
-    }
-
-    public void OnTriggerEnter(Collider Col)
-    {
-        if (Col.gameObject.tag == "Coin")
-
-        {
-            Debug.Log("Coin collected!");
-            coins = coins + 1;
-            //Col.gameObject.SetActive(false);
-            Destroy(Col.gameObject);
-        }
+        coin++;
+        coinText.text = coin.ToString();
     }
 }
