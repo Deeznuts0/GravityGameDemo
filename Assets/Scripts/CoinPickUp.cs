@@ -10,8 +10,12 @@ public class CoinPickUp : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        Destroy(other.gameObject);
-        AddCoin();
+        if (other.tag =="Coin" )
+        {
+            Destroy(other.gameObject);
+            AddCoin();
+        }
+        
     }
 
     void AddCoin()

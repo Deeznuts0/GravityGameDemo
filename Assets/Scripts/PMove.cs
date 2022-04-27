@@ -10,12 +10,14 @@ public class PMove : MonoBehaviour
     public Rigidbody rb;
     public float jumpheight;
     public CustomGravity cg;
-
+    Vector3 direction;
     private float xmov;
     private float zmov;
     private bool jumpTrigger;
     public GameObject Cam;
-
+    CoinPickUp done;
+   public Windy w;
+    public float rotspeed;
     AudioSource audio;
 
     // Start is called before the first frame update
@@ -39,7 +41,15 @@ public class PMove : MonoBehaviour
     void FixedUpdate()
     {
         //horizontal movement
-        rb.velocity = new Vector3(xmov * speed, rb.velocity.y, zmov * speed);
+       direction = new Vector3(xmov * speed, rb.velocity.y, zmov * speed);
+        rb.velocity = direction;
+        //turning
+        
+       /* if (direction!= Vector3.zero)
+        {
+            Quaternion finalrot = Quaternion.LookRotation(direction, rb.velocity);
+            transform.rotation = Quaternion.RotateTowards(transform.rotation, finalrot, rotspeed * Time.deltaTime);
+        }*/
 
         //jumping
         if (jumpTrigger)
@@ -68,7 +78,7 @@ public class PMove : MonoBehaviour
             SwitchGravity();
             audio.Play();
         }
-        if (col.gameObject.CompareTag("check")/*&& coins==5*/)
+        if (col.gameObject.CompareTag("check")&& done.coin==5)
         {
             SceneManager.LoadScene("start");
         }
@@ -84,6 +94,10 @@ public class PMove : MonoBehaviour
             SceneManager.LoadScene("start");
         }
 
+        if (collision.gameObject.CompareTag("blog"))
+        {
+            w.blowable = true;
+        }
 
     }
 

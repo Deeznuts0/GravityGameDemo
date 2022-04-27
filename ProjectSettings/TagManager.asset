@@ -13,6 +13,7 @@ TagManager:
   - Floor
   - log
   - Coin
+  - blog
   layers:
   - Default
   - TransparentFX
