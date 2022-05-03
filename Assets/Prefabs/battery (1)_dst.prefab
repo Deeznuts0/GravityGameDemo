@@ -12,10 +12,8 @@ GameObject:
   - component: {fileID: 4600919786455904046}
   - component: {fileID: 1746613127452416996}
   - component: {fileID: 1151974564554163523}
-  - component: {fileID: 841488815396444402}
-  - component: {fileID: -8576330020479781774}
   m_Layer: 0
-  m_Name: battery (1)_dst
+  m_Name: battery (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -97,28 +95,3 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.01949254, y: 0.019492554, z: 0.06751746}
   m_Center: {x: -3.0788187e-16, y: -0.000000008522584, z: 0.033793192}
---- !u!114 &841488815396444402
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 233566036471478833}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c379d4148c8b21d4ba6ebd23f898644f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  p: {fileID: 0}
---- !u!114 &-8576330020479781774
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 233566036471478833}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9197206b5a947304b8d377e49e0d382d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 

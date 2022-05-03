@@ -10,14 +10,14 @@ public class PMove : MonoBehaviour
     public Rigidbody rb;
     public float jumpheight;
     public CustomGravity cg;
-    Vector3 direction;
-    private float xmov;
-    private float zmov;
+
+    public float xmov;
+    public float zmov;
     private bool jumpTrigger;
     public GameObject Cam;
-    CoinPickUp done;
-   public Windy w;
-    public float rotspeed;
+
+    public Vector3 moveDirection;
+
     AudioSource audio;
 
     // Start is called before the first frame update
@@ -29,27 +29,27 @@ public class PMove : MonoBehaviour
 
     void Update()
     {
-        xmov = Input.GetAxisRaw("Horizontal");
-        zmov = Input.GetAxisRaw("Vertical");
+        xmov = Input.GetAxisRaw("Horizontal") * speed;
+        zmov = Input.GetAxisRaw("Vertical") * speed;
         if (Input.GetButtonDown("Jump") && isGrounded())
         {
             jumpTrigger = true;
         }
+
+        Vector3 forward = transform.TransformDirection(Vector3.forward);
+        Vector3 right = transform.TransformDirection(Vector3.right);
+        moveDirection = ((forward * zmov) + (right * xmov));
+
+        transform.rotation = Cam.transform.rotation;
+        //transform.rotation = Quaternion.Euler(new Vector3(Cam.transform.rotation.eulerAngles.x, transform.rotation.eulerAngles.y, transform.rotation.eulerAngles.z));
+
     }
 
     // Update is called once per frame
     void FixedUpdate()
     {
         //horizontal movement
-       direction = new Vector3(xmov * speed, rb.velocity.y, zmov * speed);
-        rb.velocity = direction;
-        //turning
-        
-       /* if (direction!= Vector3.zero)
-        {
-            Quaternion finalrot = Quaternion.LookRotation(direction, rb.velocity);
-            transform.rotation = Quaternion.RotateTowards(transform.rotation, finalrot, rotspeed * Time.deltaTime);
-        }*/
+        rb.velocity = new Vector3(moveDirection.x, rb.velocity.y, moveDirection.z);
 
         //jumping
         if (jumpTrigger)
@@ -78,7 +78,7 @@ public class PMove : MonoBehaviour
             SwitchGravity();
             audio.Play();
         }
-        if (col.gameObject.CompareTag("check")&& done.coin==5)
+        if (col.gameObject.CompareTag("check")/*&& coins==5*/)
         {
             SceneManager.LoadScene("start");
         }
@@ -94,10 +94,6 @@ public class PMove : MonoBehaviour
             SceneManager.LoadScene("start");
         }
 
-        if (collision.gameObject.CompareTag("blog"))
-        {
-            w.blowable = true;
-        }
 
     }
 
