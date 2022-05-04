@@ -4,14 +4,18 @@ using UnityEngine;
 
 public class scoreup : MonoBehaviour
 {
-    public player p;
+    public CoinPickUp p;
+    [SerializeField]
+    private int scorevalue = 1;
+    [SerializeField]
     
+   
 
 
     // Start is called before the first frame update
     void Start()
     {
-        
+       
     }
 
     // Update is called once per frame
@@ -22,13 +26,18 @@ public class scoreup : MonoBehaviour
 
     void OnTriggerEnter(Collider c)
     {
+
         if (c.gameObject.CompareTag("Player"))
-        {
-            p.coins++;
-            Destroy(this.gameObject, .1f);
-        }
+         {
+             p.AddCoin();
+
+
+                
+
+             Destroy(this.gameObject, .1f);
+         }
+     }
     }
 
 
 
-}

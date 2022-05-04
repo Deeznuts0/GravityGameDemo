@@ -19,12 +19,15 @@ public class PMove : MonoBehaviour
    public Windy w;
     public float rotspeed;
     AudioSource audio;
+    public AudioSource audioSource;
 
     // Start is called before the first frame update
     void Start()
     {
         rb.GetComponent<Rigidbody>();
         audio = GetComponent<AudioSource>();
+        audioSource = new  AudioSource();
+
     }
 
     void Update()
@@ -76,11 +79,24 @@ public class PMove : MonoBehaviour
 
     public bool isGrounded()
     {
-        return Physics.Raycast(transform.position, Vector3.down, 1.0f);
+        if (cg.gravityScale >= 0)
+        {
+
+            return Physics.Raycast(transform.position, Vector3.down, 1.0f);
+        }
+        else
+        {
+            return Physics.Raycast(transform.position, Vector3.up, 1.0f);
+        }
     }
 
     void OnTriggerEnter(Collider col)
     {
+
+        
+
+
+
         if (col.gameObject.CompareTag("grav"))
         {
             SwitchGravity();
@@ -88,8 +104,11 @@ public class PMove : MonoBehaviour
         }
         if (col.gameObject.CompareTag("check")&& done.coin>=5)
         {
-            SceneManager.LoadScene("start");
+            SceneManager.LoadScene("Endscreen");
         }
+
+       // if (col.gameObject.CompareTag("Coin"))
+           // audioSource.Play();
 
     }
 
@@ -113,6 +132,7 @@ public class PMove : MonoBehaviour
     {
         // Physics.gravity = new Vector3(0, -1.0F, 0);
         cg.gravityScale *= -1;
+        jumpheight *= -1;
     }
 }
 

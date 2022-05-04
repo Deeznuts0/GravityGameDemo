@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/FlipOutline.unity
     guid: 91019e871e2e1a846ae8924f2c550a15
+  - enabled: 1
+    path: Assets/Scenes/Endscreen.unity
+    guid: 584905a695285074e996ce92c82979f7
   m_configObjects: {}
