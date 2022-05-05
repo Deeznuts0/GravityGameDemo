@@ -5,7 +5,11 @@ PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 22
 <<<<<<< HEAD
+<<<<<<< HEAD
   productGUID: 4f3cb4db1f089c84381811b3073dbffd
+=======
+  productGUID: c5ae8178d1ba7e742bdb7806d675e53f
+>>>>>>> 5c9eda5dd58254e5fa3f2dedebf1562fcf78b200
 =======
   productGUID: c5ae8178d1ba7e742bdb7806d675e53f
 >>>>>>> 5c9eda5dd58254e5fa3f2dedebf1562fcf78b200
@@ -18,7 +22,11 @@ PlayerSettings:
   accelerometerFrequency: 60
   companyName: DefaultCompany
 <<<<<<< HEAD
+<<<<<<< HEAD
   productName: GravityGameDemo
+=======
+  productName: Gravitytest
+>>>>>>> 5c9eda5dd58254e5fa3f2dedebf1562fcf78b200
 =======
   productName: Gravitytest
 >>>>>>> 5c9eda5dd58254e5fa3f2dedebf1562fcf78b200
@@ -51,8 +59,13 @@ PlayerSettings:
   m_VirtualRealitySplashScreen: {fileID: 0}
   m_HolographicTrackingLossScreen: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   defaultScreenWidth: 1920
   defaultScreenHeight: 1080
+=======
+  defaultScreenWidth: 1024
+  defaultScreenHeight: 768
+>>>>>>> 5c9eda5dd58254e5fa3f2dedebf1562fcf78b200
 =======
   defaultScreenWidth: 1024
   defaultScreenHeight: 768
@@ -84,7 +97,11 @@ PlayerSettings:
   defaultIsNativeResolution: 1
   macRetinaSupport: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
   runInBackground: 0
+=======
+  runInBackground: 1
+>>>>>>> 5c9eda5dd58254e5fa3f2dedebf1562fcf78b200
 =======
   runInBackground: 1
 >>>>>>> 5c9eda5dd58254e5fa3f2dedebf1562fcf78b200
@@ -103,7 +120,11 @@ PlayerSettings:
   useMacAppStoreValidation: 0
   macAppStoreCategory: public.app-category.games
 <<<<<<< HEAD
+<<<<<<< HEAD
   gpuSkinning: 0
+=======
+  gpuSkinning: 1
+>>>>>>> 5c9eda5dd58254e5fa3f2dedebf1562fcf78b200
 =======
   gpuSkinning: 1
 >>>>>>> 5c9eda5dd58254e5fa3f2dedebf1562fcf78b200
@@ -129,7 +150,11 @@ PlayerSettings:
   xboxOneEnableTypeOptimization: 0
   xboxOnePresentImmediateThreshold: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   switchQueueCommandMemory: 1048576
+=======
+  switchQueueCommandMemory: 0
+>>>>>>> 5c9eda5dd58254e5fa3f2dedebf1562fcf78b200
 =======
   switchQueueCommandMemory: 0
 >>>>>>> 5c9eda5dd58254e5fa3f2dedebf1562fcf78b200
@@ -153,7 +178,11 @@ PlayerSettings:
     16:9: 1
     Others: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
   bundleVersion: 1.0
+=======
+  bundleVersion: 0.1
+>>>>>>> 5c9eda5dd58254e5fa3f2dedebf1562fcf78b200
 =======
   bundleVersion: 0.1
 >>>>>>> 5c9eda5dd58254e5fa3f2dedebf1562fcf78b200
@@ -171,7 +200,11 @@ PlayerSettings:
   D3DHDRBitDepth: 0
   m_ColorGamuts: 00000000
 <<<<<<< HEAD
+<<<<<<< HEAD
   targetPixelDensity: 0
+=======
+  targetPixelDensity: 30
+>>>>>>> 5c9eda5dd58254e5fa3f2dedebf1562fcf78b200
 =======
   targetPixelDensity: 30
 >>>>>>> 5c9eda5dd58254e5fa3f2dedebf1562fcf78b200
@@ -180,12 +213,18 @@ PlayerSettings:
   androidMaxAspectRatio: 2.1
   applicationIdentifier: {}
 <<<<<<< HEAD
+<<<<<<< HEAD
   buildNumber: {}
 =======
+=======
+>>>>>>> 5c9eda5dd58254e5fa3f2dedebf1562fcf78b200
   buildNumber:
     Standalone: 0
     iPhone: 0
     tvOS: 0
+<<<<<<< HEAD
+>>>>>>> 5c9eda5dd58254e5fa3f2dedebf1562fcf78b200
+=======
 >>>>>>> 5c9eda5dd58254e5fa3f2dedebf1562fcf78b200
   overrideDefaultApplicationIdentifier: 0
   AndroidBundleVersionCode: 1
@@ -202,6 +241,7 @@ PlayerSettings:
   APKExpansionFiles: 0
   keepLoadedShadersAlive: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   StripUnusedMeshComponents: 0
   VertexChannelCompressionMask: 4054
   iPhoneSdkVersion: 988
@@ -210,6 +250,8 @@ PlayerSettings:
   tvOSRequireExtendedGameController: 0
   tvOSTargetOSVersionString: 
 =======
+=======
+>>>>>>> 5c9eda5dd58254e5fa3f2dedebf1562fcf78b200
   StripUnusedMeshComponents: 1
   VertexChannelCompressionMask: 4054
   iPhoneSdkVersion: 988
@@ -217,6 +259,9 @@ PlayerSettings:
   tvOSSdkVersion: 0
   tvOSRequireExtendedGameController: 0
   tvOSTargetOSVersionString: 11.0
+<<<<<<< HEAD
+>>>>>>> 5c9eda5dd58254e5fa3f2dedebf1562fcf78b200
+=======
 >>>>>>> 5c9eda5dd58254e5fa3f2dedebf1562fcf78b200
   uIPrerenderedIcon: 0
   uIRequiresPersistentWiFi: 0
@@ -272,9 +317,15 @@ PlayerSettings:
   appleEnableProMotion: 0
   shaderPrecisionModel: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   clonedFromGUID: 00000000000000000000000000000000
   templatePackageId: 
   templateDefaultScene: 
+=======
+  clonedFromGUID: c0afd0d1d80e3634a9dac47e8a0426ea
+  templatePackageId: com.unity.template.3d@5.0.4
+  templateDefaultScene: Assets/Scenes/SampleScene.unity
+>>>>>>> 5c9eda5dd58254e5fa3f2dedebf1562fcf78b200
 =======
   clonedFromGUID: c0afd0d1d80e3634a9dac47e8a0426ea
   templatePackageId: com.unity.template.3d@5.0.4
@@ -312,12 +363,15 @@ PlayerSettings:
   m_BuildTargetIcons: []
   m_BuildTargetPlatformIcons: []
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_BuildTargetBatching: []
   m_BuildTargetGraphicsJobs: []
   m_BuildTargetGraphicsJobMode: []
   m_BuildTargetGraphicsAPIs: []
   m_BuildTargetVRSettings: []
 =======
+=======
+>>>>>>> 5c9eda5dd58254e5fa3f2dedebf1562fcf78b200
   m_BuildTargetBatching:
   - m_BuildTarget: Standalone
     m_StaticBatching: 1
@@ -385,6 +439,9 @@ PlayerSettings:
     m_Devices:
     - Oculus
     - OpenVR
+<<<<<<< HEAD
+>>>>>>> 5c9eda5dd58254e5fa3f2dedebf1562fcf78b200
+=======
 >>>>>>> 5c9eda5dd58254e5fa3f2dedebf1562fcf78b200
   openGLRequireES31: 0
   openGLRequireES31AEP: 0
@@ -577,7 +634,11 @@ PlayerSettings:
   ps4RemotePlayKeyMappingDir: 
   ps4PlayTogetherPlayerCount: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   ps4EnterButtonAssignment: 2
+=======
+  ps4EnterButtonAssignment: 1
+>>>>>>> 5c9eda5dd58254e5fa3f2dedebf1562fcf78b200
 =======
   ps4EnterButtonAssignment: 1
 >>>>>>> 5c9eda5dd58254e5fa3f2dedebf1562fcf78b200
@@ -604,7 +665,11 @@ PlayerSettings:
   ps4UseLowGarlicFragmentationMode: 1
   ps4SocialScreenEnabled: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   ps4ScriptOptimizationLevel: 2
+=======
+  ps4ScriptOptimizationLevel: 0
+>>>>>>> 5c9eda5dd58254e5fa3f2dedebf1562fcf78b200
 =======
   ps4ScriptOptimizationLevel: 0
 >>>>>>> 5c9eda5dd58254e5fa3f2dedebf1562fcf78b200
@@ -634,7 +699,11 @@ PlayerSettings:
   blurSplashScreenBackground: 1
   spritePackerPolicy: 
 <<<<<<< HEAD
+<<<<<<< HEAD
   webGLMemorySize: 32
+=======
+  webGLMemorySize: 16
+>>>>>>> 5c9eda5dd58254e5fa3f2dedebf1562fcf78b200
 =======
   webGLMemorySize: 16
 >>>>>>> 5c9eda5dd58254e5fa3f2dedebf1562fcf78b200
@@ -648,7 +717,11 @@ PlayerSettings:
   webGLAnalyzeBuildSize: 0
   webGLUseEmbeddedResources: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   webGLCompressionFormat: 0
+=======
+  webGLCompressionFormat: 1
+>>>>>>> 5c9eda5dd58254e5fa3f2dedebf1562fcf78b200
 =======
   webGLCompressionFormat: 1
 >>>>>>> 5c9eda5dd58254e5fa3f2dedebf1562fcf78b200
@@ -677,7 +750,11 @@ PlayerSettings:
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
   metroPackageName: GravityGameDemo
+=======
+  metroPackageName: Template_3D
+>>>>>>> 5c9eda5dd58254e5fa3f2dedebf1562fcf78b200
 =======
   metroPackageName: Template_3D
 >>>>>>> 5c9eda5dd58254e5fa3f2dedebf1562fcf78b200
@@ -688,7 +765,11 @@ PlayerSettings:
   metroCertificateIssuer: 
   metroCertificateNotAfter: 0000000000000000
 <<<<<<< HEAD
+<<<<<<< HEAD
   metroApplicationDescription: GravityGameDemo
+=======
+  metroApplicationDescription: Template_3D
+>>>>>>> 5c9eda5dd58254e5fa3f2dedebf1562fcf78b200
 =======
   metroApplicationDescription: Template_3D
 >>>>>>> 5c9eda5dd58254e5fa3f2dedebf1562fcf78b200
@@ -739,8 +820,11 @@ PlayerSettings:
   XboxOneOverrideIdentityPublisher: 
   vrEditorSettings: {}
 <<<<<<< HEAD
+<<<<<<< HEAD
   cloudServicesEnabled: {}
 =======
+=======
+>>>>>>> 5c9eda5dd58254e5fa3f2dedebf1562fcf78b200
   cloudServicesEnabled:
     Analytics: 1
     Build: 1
@@ -750,6 +834,9 @@ PlayerSettings:
     UDP: 0
     UNet: 1
     Unity Ads: 0
+<<<<<<< HEAD
+>>>>>>> 5c9eda5dd58254e5fa3f2dedebf1562fcf78b200
+=======
 >>>>>>> 5c9eda5dd58254e5fa3f2dedebf1562fcf78b200
   luminIcon:
     m_Name: 
@@ -765,17 +852,23 @@ PlayerSettings:
   apiCompatibilityLevel: 6
   activeInputHandler: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   cloudProjectId: 
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
   projectName: 
   organizationId: 
 =======
+=======
+>>>>>>> 5c9eda5dd58254e5fa3f2dedebf1562fcf78b200
   cloudProjectId: 2dbbb8d2-e1f0-493f-94e0-42cdfb720978
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
   projectName: Gravitytest
   organizationId: dilanalpay
+<<<<<<< HEAD
+>>>>>>> 5c9eda5dd58254e5fa3f2dedebf1562fcf78b200
+=======
 >>>>>>> 5c9eda5dd58254e5fa3f2dedebf1562fcf78b200
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0

@@ -1,7 +1,12 @@
 {
   "dependencies": {
 <<<<<<< HEAD
+<<<<<<< HEAD
     "com.unity.collab-proxy": "1.7.1",
+=======
+    "com.unity.cinemachine": "2.6.11",
+    "com.unity.collab-proxy": "1.15.16",
+>>>>>>> 5c9eda5dd58254e5fa3f2dedebf1562fcf78b200
 =======
     "com.unity.cinemachine": "2.6.11",
     "com.unity.collab-proxy": "1.15.16",

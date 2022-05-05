@@ -4,7 +4,11 @@
 Physics2DSettings:
   m_ObjectHideFlags: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   serializedVersion: 5
+=======
+  serializedVersion: 4
+>>>>>>> 5c9eda5dd58254e5fa3f2dedebf1562fcf78b200
 =======
   serializedVersion: 4
 >>>>>>> 5c9eda5dd58254e5fa3f2dedebf1562fcf78b200
@@ -43,17 +47,23 @@ Physics2DSettings:
     m_IslandSolverBodiesPerJob: 50
     m_IslandSolverContactsPerJob: 50
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_SimulationMode: 0
   m_QueriesHitTriggers: 1
   m_QueriesStartInColliders: 1
   m_CallbacksOnDisable: 1
   m_ReuseCollisionCallbacks: 0
 =======
+=======
+>>>>>>> 5c9eda5dd58254e5fa3f2dedebf1562fcf78b200
   m_AutoSimulation: 1
   m_QueriesHitTriggers: 1
   m_QueriesStartInColliders: 1
   m_CallbacksOnDisable: 1
   m_ReuseCollisionCallbacks: 1
+<<<<<<< HEAD
+>>>>>>> 5c9eda5dd58254e5fa3f2dedebf1562fcf78b200
+=======
 >>>>>>> 5c9eda5dd58254e5fa3f2dedebf1562fcf78b200
   m_AutoSyncTransforms: 0
   m_AlwaysShowColliders: 0

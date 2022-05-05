@@ -5,8 +5,14 @@ EditorSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 11
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_SerializationMode: 2
   m_LineEndingsForNewScripts: 2
+=======
+  m_ExternalVersionControlSupport: Visible Meta Files
+  m_SerializationMode: 2
+  m_LineEndingsForNewScripts: 0
+>>>>>>> 5c9eda5dd58254e5fa3f2dedebf1562fcf78b200
 =======
   m_ExternalVersionControlSupport: Visible Meta Files
   m_SerializationMode: 2
@@ -21,6 +27,7 @@ EditorSettings:
   m_EtcTextureFastCompressor: 1
   m_EtcTextureNormalCompressor: 2
   m_EtcTextureBestCompressor: 4
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_ProjectGenerationIncludedExtensions: txt;xml;fnt;cd;asmdef;asmref;rsp
   m_ProjectGenerationRootNamespace: 
@@ -46,6 +53,8 @@ EditorSettings:
   m_CacheServerEnableAuth: 0
   m_CacheServerEnableTls: 0
 =======
+=======
+>>>>>>> 5c9eda5dd58254e5fa3f2dedebf1562fcf78b200
   m_ProjectGenerationIncludedExtensions: txt;xml;fnt;cd;asmdef;rsp;asmref
   m_ProjectGenerationRootNamespace: 
   m_CollabEditorSettings:
@@ -57,5 +66,9 @@ EditorSettings:
   m_EnterPlayModeOptions: 3
   m_ShowLightmapResolutionOverlay: 1
   m_UseLegacyProbeSampleCount: 0
+<<<<<<< HEAD
+  m_SerializeInlineMappingsOnOneLine: 1
+>>>>>>> 5c9eda5dd58254e5fa3f2dedebf1562fcf78b200
+=======
   m_SerializeInlineMappingsOnOneLine: 1
 >>>>>>> 5c9eda5dd58254e5fa3f2dedebf1562fcf78b200

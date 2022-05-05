@@ -5,7 +5,11 @@ UnityConnectSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Enabled: 0
+=======
+  m_Enabled: 1
+>>>>>>> 5c9eda5dd58254e5fa3f2dedebf1562fcf78b200
 =======
   m_Enabled: 1
 >>>>>>> 5c9eda5dd58254e5fa3f2dedebf1562fcf78b200
@@ -25,7 +29,11 @@ UnityConnectSettings:
     m_TestMode: 0
   UnityAnalyticsSettings:
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Enabled: 0
+=======
+    m_Enabled: 1
+>>>>>>> 5c9eda5dd58254e5fa3f2dedebf1562fcf78b200
 =======
     m_Enabled: 1
 >>>>>>> 5c9eda5dd58254e5fa3f2dedebf1562fcf78b200

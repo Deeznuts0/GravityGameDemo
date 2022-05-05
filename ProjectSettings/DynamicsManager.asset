@@ -4,16 +4,22 @@
 PhysicsManager:
   m_ObjectHideFlags: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   serializedVersion: 13
   m_Gravity: {x: 0, y: -9.81, z: 0}
   m_DefaultMaterial: {fileID: 0}
   m_BounceThreshold: 2
   m_DefaultMaxDepenetrationVelocity: 10
 =======
+=======
+>>>>>>> 5c9eda5dd58254e5fa3f2dedebf1562fcf78b200
   serializedVersion: 11
   m_Gravity: {x: 0, y: -9.81, z: 0}
   m_DefaultMaterial: {fileID: 0}
   m_BounceThreshold: 2
+<<<<<<< HEAD
+>>>>>>> 5c9eda5dd58254e5fa3f2dedebf1562fcf78b200
+=======
 >>>>>>> 5c9eda5dd58254e5fa3f2dedebf1562fcf78b200
   m_SleepThreshold: 0.005
   m_DefaultContactOffset: 0.01
@@ -23,8 +29,13 @@ PhysicsManager:
   m_QueriesHitTriggers: 1
   m_EnableAdaptiveForce: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_ClothInterCollisionDistance: 0.1
   m_ClothInterCollisionStiffness: 0.2
+=======
+  m_ClothInterCollisionDistance: 0
+  m_ClothInterCollisionStiffness: 0
+>>>>>>> 5c9eda5dd58254e5fa3f2dedebf1562fcf78b200
 =======
   m_ClothInterCollisionDistance: 0
   m_ClothInterCollisionStiffness: 0
@@ -34,9 +45,14 @@ PhysicsManager:
   m_AutoSimulation: 1
   m_AutoSyncTransforms: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_ReuseCollisionCallbacks: 0
   m_ClothInterCollisionSettingsToggle: 0
   m_ClothGravity: {x: 0, y: -9.81, z: 0}
+=======
+  m_ReuseCollisionCallbacks: 1
+  m_ClothInterCollisionSettingsToggle: 0
+>>>>>>> 5c9eda5dd58254e5fa3f2dedebf1562fcf78b200
 =======
   m_ReuseCollisionCallbacks: 1
   m_ClothInterCollisionSettingsToggle: 0
@@ -51,8 +67,12 @@ PhysicsManager:
   m_EnableEnhancedDeterminism: 0
   m_EnableUnifiedHeightmaps: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_SolverType: 0
   m_DefaultMaxAngularSpeed: 50
+=======
+  m_DefaultMaxAngluarSpeed: 7
+>>>>>>> 5c9eda5dd58254e5fa3f2dedebf1562fcf78b200
 =======
   m_DefaultMaxAngluarSpeed: 7
 >>>>>>> 5c9eda5dd58254e5fa3f2dedebf1562fcf78b200

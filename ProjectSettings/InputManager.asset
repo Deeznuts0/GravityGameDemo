@@ -10,8 +10,13 @@ InputManager:
     descriptiveName: 
     descriptiveNegativeName: 
 <<<<<<< HEAD
+<<<<<<< HEAD
     negativeButton: left
     positiveButton: right
+=======
+    negativeButton: 
+    positiveButton: 
+>>>>>>> 5c9eda5dd58254e5fa3f2dedebf1562fcf78b200
 =======
     negativeButton: 
     positiveButton: 
@@ -31,8 +36,13 @@ InputManager:
     descriptiveName: 
     descriptiveNegativeName: 
 <<<<<<< HEAD
+<<<<<<< HEAD
     negativeButton: down
     positiveButton: up
+=======
+    negativeButton: 
+    positiveButton: 
+>>>>>>> 5c9eda5dd58254e5fa3f2dedebf1562fcf78b200
 =======
     negativeButton: 
     positiveButton: 

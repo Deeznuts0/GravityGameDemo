@@ -11,7 +11,10 @@ VFXManager:
   m_FixedTimeStep: 0.016666668
   m_MaxDeltaTime: 0.05
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_CompiledVersion: 0
   m_RuntimeVersion: 0
+=======
+>>>>>>> 5c9eda5dd58254e5fa3f2dedebf1562fcf78b200
 =======
 >>>>>>> 5c9eda5dd58254e5fa3f2dedebf1562fcf78b200

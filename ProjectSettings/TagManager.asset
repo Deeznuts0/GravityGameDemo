@@ -4,8 +4,11 @@
 TagManager:
   serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
   tags: []
 =======
+=======
+>>>>>>> 5c9eda5dd58254e5fa3f2dedebf1562fcf78b200
   tags:
   - switch
   - grav
@@ -17,13 +20,20 @@ TagManager:
   - log
   - Coin
   - blog
+<<<<<<< HEAD
+>>>>>>> 5c9eda5dd58254e5fa3f2dedebf1562fcf78b200
+=======
 >>>>>>> 5c9eda5dd58254e5fa3f2dedebf1562fcf78b200
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
 <<<<<<< HEAD
+<<<<<<< HEAD
   - 
+=======
+  - ground
+>>>>>>> 5c9eda5dd58254e5fa3f2dedebf1562fcf78b200
 =======
   - ground
 >>>>>>> 5c9eda5dd58254e5fa3f2dedebf1562fcf78b200
